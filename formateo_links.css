@@ -1,0 +1,36 @@
+/* CSS Document */
+nav ul li {
+	background-color:#0F6;
+	display:inline;
+	color:#F33;
+}
+p {
+	background-color:#0C9;
+}
+
+
+aside {
+	float:left;
+	height:1024px;
+	background-color:black;
+	width:200px;
+
+}
+
+aside blockquote {
+	font-size:60px;
+}
+
+h1 {
+	text-align:center;
+}
+
+body section p {
+	background-color:#0FC;
+	color:#000;
+}
+
+body section ul li {
+	background-color:#C30;
+	text-decoration:blink;
+}

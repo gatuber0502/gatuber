@@ -1,0 +1,58 @@
+/* CSS Document */
+nav ul li {
+	display:inline;
+	background-color:#30F;
+	background-color:transparent;
+}
+aside {
+	float:left;
+	height:1024px;
+	background-color:green;
+	width:200px;
+	color:#FC3;
+}
+
+#Principal_texto {
+	background-color:#666;
+	font-size-adjust:center;
+	color:#3F6;
+}
+ul ol a {
+	color:#F00;
+	font-style:oblique;
+	color:#600;
+}
+p a{
+	background-color:#0F0;
+	color:#603;
+	background-image:url(/info/img/icono.png) 
+}
+
+h2 {
+	font-size:28px;
+	background-color:#930;
+	color:#3F6;
+}
+
+form {
+	border-color:#3F9;
+}
+
+section {
+	background-image:url(/info/img/background.jpg)
+}
+
+img {
+	background-position:center;
+	height:190px;
+}
+section ul li {
+	background-color:#9C6;
+	font-size-adjust:inherit;
+}
+
+#texto1 {
+	text-align:center;
+	vertical-align:central;
+	background-image:img/hallowen.png
+}
