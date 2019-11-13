@@ -1,8 +1,15 @@
 /* CSS Document */
 nav ul li {
+	border: 3px solid 000;
+	text-transform:capitalize;
+	border-style:groove;
+	background-color:0fa30;
 	display:inline;
-	background-color:#30F;
-	background-color:transparent;
+	background-color:#0fa;
+	letter-spacing:6px;
+	color:#ffffff;
+	list-style:inside;
+	word-spacing:2px;
 }
 aside {
 	float:left;
@@ -21,17 +28,24 @@ ul ol a {
 	color:#F00;
 	font-style:oblique;
 	color:#600;
+	font-size:18px;
 }
 p a{
 	background-color:#0F0;
 	color:#603;
+	font-style:
 	background-image:url(/info/img/icono.png) 
 }
 
 h2 {
 	font-size:28px;
+	font-family:arial;
 	background-color:#930;
+	border:20px;
+	border-color:#404;
+	border-style:square;
 	color:#3F6;
+	
 }
 
 form {
@@ -39,7 +53,7 @@ form {
 }
 
 section {
-	background-image:url(/info/img/background.jpg)
+	background-image: url("/info/img/background.jpg")
 }
 
 img {
@@ -54,5 +68,89 @@ section ul li {
 #texto1 {
 	text-align:center;
 	vertical-align:central;
-	background-image:img/hallowen.png
+}
+
+h1 {
+	border: 23px solid red;
+	font-style:italic;
+	color:9ae;
+	text-align:center;
+	text-transform:capitalize;
+	border-style:groove;
+	background-color:0fa30;
+	text-shadow: 1px 3px 2px #323;
+}
+
+p.texto32 {
+	font-family:Arial;
+	white-space:pre-wrap;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+body {
+	background-color: #a90;
+}
+
+a:link {
+	cursor:help;
+	
+}
+a:active {
+	color:black;
+	background-color:white;
+	cursor:help;
+}
+a:visited {
+	background:blue;
+	font-size:23px;
+	text-transform:capitalize;
+	cursor:help;
+}
+a:hover {
+	font-size:20px;
+	background-color:yellow;
+	font-family:Arial;
+	cursor:help;
+}
+
+.figure1 ul li {
+	background-color:red;
+	color:green;
+	letter-spacing:2px;
+	cursor:help;
+}
+
+p.NT1 {
+	letter-spacing:2px;
+	word-spacing:3px;
+	font-family:Arial;
+	text-transform:capitalize;
+}
+
+p.advanced {
+	text-align:center;
+	text-decoration:inherit;
+	color:#f13;
+	background-color:white;
+	font-size:20px;
+}
+
+nav.FigureA1 ul li a {
+	background-color:#049;
+	font-size:16px;
+	color:white;
+}
+
+h2 {
+	border: 23px solid #941;
+}
+
+/* body.principal {
+	background-image: url('icono.png'); 
+}
+*/
+
+/* section.sectorPrimario { */
+	background-image: url('icono.png');
 }
